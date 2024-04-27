@@ -1,0 +1,65 @@
+.carousel-images {
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff; /* White background for holiday feel */
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover; /* Ensure images cover the entire space */
+  }
+  
+  .slide_direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .left,
+  .right {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Center horizontally and vertically */
+    cursor: pointer;
+    background-color: #ff5733; /* Red button for holiday theme */
+  }
+  
+  .left {
+    left: 10px;
+  }
+  
+  .right {
+    right: 10px;
+  }
+  
+  .left:hover,
+  .right:hover {
+    background-color: #ff8c66; /* Lighter red on hover */
+  }
+  
+  .carousel-indicator {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .dot {
+    background-color: #ff5733; /* Red dots for holiday theme */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .active {
+    background-color: #ff8c66; /* Lighter red for active dot */
+  }

@@ -1,0 +1,68 @@
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.form {
+  display: grid;
+  gap: 10px;
+}
+
+/* Label styling */
+.label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input field styling */
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Textarea styling */
+.textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Submit button styling */
+.submitButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+/* Error message styling */
+.errorMessage {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}

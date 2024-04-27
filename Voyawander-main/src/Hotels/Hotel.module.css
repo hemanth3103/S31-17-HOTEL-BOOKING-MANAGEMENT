@@ -1,0 +1,62 @@
+.filters_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sort_price select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .allhotels {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .no_items {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .error {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+    text-align: center;
+  }
+  
+  .loading {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
